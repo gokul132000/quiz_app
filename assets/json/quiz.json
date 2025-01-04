@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is Flutter?",
+    "options": ["A programming language", "A UI toolkit", "An IDE", "A web framework"],
+    "answer": "A UI toolkit"
+  },
+  {
+    "question": "Which language is used to write Flutter apps?",
+    "options": ["Java", "Dart", "Swift", "Kotlin"],
+    "answer": "Dart"
+  },
+  {
+    "question": "What does 'Hot Reload' in Flutter do?",
+    "options": ["Compiles the app", "Updates the app instantly with code changes", "Restarts the app", "Builds the app from scratch"],
+    "answer": "Updates the app instantly with code changes"
+  },
+  {
+    "question": "Which widget is used to build a scrolling list of items in Flutter?",
+    "options": ["Column", "Row", "ListView", "Stack"],
+    "answer": "ListView"
+  },
+  {
+    "question": "What is the default language for writing Flutter apps?",
+    "options": ["JavaScript", "Java", "Dart", "C++"],
+    "answer": "Dart"
+  },
+  {
+    "question": "What does the 'StatefulWidget' class in Flutter represent?",
+    "options": ["A widget with no state", "A widget that can change over time", "A widget that cannot be updated", "A widget used for styling"],
+    "answer": "A widget that can change over time"
+  },
+  {
+    "question": "What is the purpose of the 'pubspec.yaml' file in a Flutter project?",
+    "options": ["Define app dependencies", "Set the app theme", "Write custom widget code", "Define routing logic"],
+    "answer": "Define app dependencies"
+  },
+  {
+    "question": "Which widget is used for displaying a fixed-size container in Flutter?",
+    "options": ["Container", "SizedBox", "Column", "Stack"],
+    "answer": "SizedBox"
+  },
+  {
+    "question": "What is 'Flutter SDK'?",
+    "options": ["A software development kit for building apps with Flutter", "A framework for web development", "A package for styling Flutter apps", "An API for Flutter app integration"],
+    "answer": "A software development kit for building apps with Flutter"
+  },
+  {
+    "question": "Which Flutter state management solution is known for its simplicity and performance?",
+    "options": ["Provider", "Riverpod", "GetX", "BLoC"],
+    "answer": "GetX"
+  }
+]
