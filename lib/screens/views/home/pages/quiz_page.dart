@@ -21,8 +21,7 @@ class QuizPage extends GetView<HomeController> {
           var currentQuestion = controller.questions[controller.currentQuestionIndex.value];
           return Padding(
             padding: const EdgeInsets.all(16.0),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+            child: ListView(
               children: [
                 TweenAnimationBuilder(
                   tween: Tween<double>(
@@ -94,6 +93,7 @@ class QuizPage extends GetView<HomeController> {
                       ),
                     ),
                   ),
+                const SizedBox(height: 20),
               ],
             ),
           );
