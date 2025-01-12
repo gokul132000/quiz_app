@@ -46,7 +46,8 @@ class HomePage extends GetView<HomeController>{
   }
 
   Widget _showCardView({required GestureTapCallback? onTap,required IconData iconData,required String text}){
-    return    GestureDetector(
+    return InkWell(
+      highlightColor: Colors.transparent,
       onTap: onTap,
       child: Container(
         width: double.infinity,
