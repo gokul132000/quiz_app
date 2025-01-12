@@ -60,11 +60,13 @@ class HomeController extends BaseController implements HomeNavigator {
 
   void saveProgress() {
     storageService.saveData('currentQuestionIndex', currentQuestionIndex.value);
+    storageService.saveData('currentCorrectAnswers', correctAnswers);
     storageService.saveData('userAnswers', userAnswers);
   }
 
   void loadProgress() {
     currentQuestionIndex.value = storageService.loadData('currentQuestionIndex', 0);
+    correctAnswers = storageService.loadData('currentCorrectAnswers', 0);
     var storedAnswers = storageService.loadData('userAnswers', <String, String>{});
     if (storedAnswers is Map<String, dynamic>) {
       userAnswers.assignAll(Map<String, String>.from(storedAnswers));
